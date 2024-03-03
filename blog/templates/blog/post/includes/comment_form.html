@@ -1,0 +1,8 @@
+<h2>Add a new comment</h2>
+<form class="comment-form" action="{% url "blog:post_comment" post.id %}" method="post">
+    <div class="form-group">
+        {{ form.as_p }}
+        {% csrf_token %}
+    </div>
+    <p><input role="button" type="submit" class="primary-btn primary_btn" value="اضافه کردن نظر">
+</form>

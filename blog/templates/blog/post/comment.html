@@ -1,0 +1,22 @@
+{% extends 'blog/base.html' %}
+{% block title %}Add a comment{% endblock %}
+{% block body %}
+    <section class="blog_area single-post-area section_gap">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 posts-list">
+                    <div class="single-post row">
+                        <div class="col-lg-9 col-md-9 blog_details text-center ">
+                            {% if comment %}
+                                <h2>Your comment add successfully</h2>
+                                <a href="{{ post.get_absolute_url }}">Back to post</a>
+                            {% else %}
+                                {% include 'blog/post/includes/comment_form.html' %}
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}
