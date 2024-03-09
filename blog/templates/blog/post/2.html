@@ -37,7 +37,7 @@
                             <div class="blog_info text-right">
                                 <div class="post_tag">
                                     <a href="#">{{ post.tags.all|join:', ' }}</a>
-{#                                    <a class="active" href="#">Technology,</a>#}
+                                    {#                                    <a class="active" href="#">Technology,</a>#}
 
                                 </div>
                                 <ul class="blog_meta list">
@@ -162,7 +162,7 @@
                 </div>
                 <div class="comment-form">
                     <h4>Leave a Reply</h4>
-                 {% include 'blog/post/includes/comment_form.html' %}
+                    {% include 'blog/post/includes/comment_form.html' %}
                 </div>
             </div>
             <div class="col-lg-4">
@@ -193,12 +193,17 @@
                         <div class="br"></div>
                     </aside>
                     <aside class="single_sidebar_widget popular_post_widget">
-                        <h3 class="widget_title">Popular Posts</h3>
+                        <h3 class="widget_title">Similar Posts</h3>
                         <div class="media post_item">
                             <img src="img/blog/popular-post/post1.jpg" alt="post">
                             <div class="media-body">
-                                <a href="blog-details.html"><h3>Space The Final Frontier</h3></a>
+                                {% for post in similar_posts %}
+                                    <a href="{{ post.get_absolute_url }}"><h3>{{ post.title }}</h3></a>
+                                {% empty %}
+                                    There are no similar posts yet
+
                                 <p>02 Hours ago</p>
+                                {% endfor %}
                             </div>
                         </div>
                         <div class="media post_item">

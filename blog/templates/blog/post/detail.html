@@ -37,10 +37,7 @@
                         <div class="col-lg-3  col-md-3">
                             <div class="blog_info text-right">
                                 <div class="post_tag">
-                                    <a href="#">Food,</a>
-                                    <a class="active" href="#">Technology,</a>
-                                    <a href="#">Politics,</a>
-                                    <a href="#">Lifestyle</a>
+                                    <a href="#">{{ post.tags.all|join:', ' }}</a>
                                 </div>
                                 <ul class="blog_meta list">
                                     <li><a href="#">{{ post.author }}<i class="lnr lnr-user"></i></a></li>
@@ -142,7 +139,7 @@
                         <div class="comment-list">
                             <div class="single-comment justify-content-between d-flex">
                                 <div class="user justify-content-between d-flex">
-                                       <div class="thumb">
+                                    <div class="thumb">
                                         <img src="{% static 'img/blog/c1.jpg' %}" alt="">
                                     </div>
                                     <div class="desc">
@@ -198,39 +195,26 @@
                             <div class="br"></div>
                         </aside>
                         <aside class="single_sidebar_widget popular_post_widget">
-                            <h3 class="widget_title">Popular Posts</h3>
+                            <h3 class="widget_title">پست های مشابه</h3>
                             <div class="media post_item">
-                                <img src="img/blog/popular-post/post1.jpg" alt="post">
+
                                 <div class="media-body">
-                                    <a href="blog-details.html"><h3>Space The Final Frontier</h3></a>
-                                    <p>02 Hours ago</p>
-                                </div>
+                                    {% for post in similar_posts %}
+                                        <ul class="list-group p-1 text-right ">
+                                            <li class="list-group-item  list-unstyled">
+                                                <a href="{{ post.get_absolute_url }}"><h3>{{ post.title }}</h3></a>
+                                                <p>{{ post.jpublish }} </p>
+                                            </li>
+                                        </ul>
+                                    {% empty %}
+                                        There are no similar posts yet
+                                        </div>
+                                    {% endfor %}
                             </div>
-                            <div class="media post_item">
-                                <img src="img/blog/popular-post/post2.jpg" alt="post">
-                                <div class="media-body">
-                                    <a href="blog-details.html"><h3>The Amazing Hubble</h3></a>
-                                    <p>02 Hours ago</p>
-                                </div>
-                            </div>
-                            <div class="media post_item">
-                                <img src="img/blog/popular-post/post3.jpg" alt="post">
-                                <div class="media-body">
-                                    <a href="blog-details.html"><h3>Astronomy Or Astrology</h3></a>
-                                    <p>03 Hours ago</p>
-                                </div>
-                            </div>
-                            <div class="media post_item">
-                                <img src="img/blog/popular-post/post4.jpg" alt="post">
-                                <div class="media-body">
-                                    <a href="blog-details.html"><h3>Asteroids telescope</h3></a>
-                                    <p>01 Hours ago</p>
-                                </div>
-                            </div>
-                            <div class="br"></div>
+
                         </aside>
                         <aside class="single_sidebar_widget ads_widget">
-                            <a href="#"><img class="img-fluid" src="img/blog/add.jpg" alt=""></a>
+                            <a href="#"><img class="img-fluid" src="{% static 'img/blog/add.jpg' %}" alt=""></a>
                             <div class="br"></div>
                         </aside>
                         <aside class="single_sidebar_widget post_category_widget">
