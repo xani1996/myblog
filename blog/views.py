@@ -44,11 +44,14 @@ def post_detail(request, post_slug):
     post_tags_ids = post.tags.values_list('id', flat=True)
     similar_posts = Post.published.filter(tags__in=post_tags_ids).exclude(id=post.id)
     similar_posts = similar_posts.annotate(same_tags=Count('tags')).order_by('-same_tags', 'publish')[:4]
+    all_tags = Tag.objects.annotate(num_posts=Count('post'))
     context = {
         'post': post,
         'comments': comments,
         'form': form,
         'similar_posts': similar_posts,
+        'all_tags': all_tags,
+
     }
     return render(request, 'blog/post/detail.html', context)
 

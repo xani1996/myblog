@@ -1,0 +1,76 @@
+{% load static %}
+<div class="col-lg-4">
+    <div class="blog_right_sidebar">
+        <aside class="single_sidebar_widget search_widget">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search Posts">
+                <span class="input-group-btn">
+                                    <button class="btn btn-default" type="button"><i
+                                            class="lnr lnr-magnifier"></i></button>
+                                </span>
+            </div><!-- /input-group -->
+            <div class="br"></div>
+        </aside>
+        <aside class="single_sidebar_widget author_widget">
+            <img class="author_img rounded-circle" src="img/blog/author.png" alt="">
+            <h4>Charlie Barber</h4>
+            <p>Senior blog writer</p>
+            <div class="social_icon">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-github"></i></a>
+                <a href="#"><i class="fa fa-behance"></i></a>
+            </div>
+            <p>Boot camps have its supporters andit sdetractors. Some people do not understand why you
+                should have to spend money on boot camp when you can get. Boot camps have itssuppor ters
+                andits detractors.</p>
+            <div class="br"></div>
+        </aside>
+        <aside class="single_sidebar_widget popular_post_widget">
+            <h3 class="widget_title">پست های مشابه</h3>
+            <div class="media post_item">
+
+                <div class="media-body">
+                    {% for post in similar_posts %}
+                        <ul class="list-group p-1 text-right ">
+                            <li class="list-group-item  list-unstyled">
+                                <a href="{{ post.get_absolute_url }}"><h3>{{ post.title }}</h3></a>
+                                <p>{{ post.jpublish }} </p>
+                            </li>
+                        </ul>
+                    {% empty %}
+                        پست مشابه وجود ندارد.
+                        </div>
+                    {% endfor %}
+            </div>
+
+        </aside>
+        <aside class="single_sidebar_widget ads_widget">
+            <a href="#"><img class="img-fluid" src="{% static 'img/blog/add.jpg' %}" alt=""></a>
+            <div class="br"></div>
+        </aside>
+        <aside class="single_sidebar_widget post_category_widget">
+            <h4 class="widget_title">Post Catgories</h4>
+            <ul class="list cat-list text-right">
+                {% for tag in all_tags %}
+                    <li>
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button"
+                                    id="dropdownMenuButton{{ tag.id }}" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                {{ tag.name }} ({{ tag.num_posts }})
+                            </button>
+                            <div class="dropdown-menu"
+                                 aria-labelledby="dropdownMenuButton{{ tag.id }}">
+                                {% for post in tag.post_set.all %}
+                                    <a class="dropdown-item"
+                                       href="{{ post.get_absolute_url }}">{{ post.title }}</a>
+                                {% endfor %}
+                            </div>
+                        </div>
+                    </li>
+                {% endfor %}
+            </ul>
+        </aside>
+    </div>
+</div>
