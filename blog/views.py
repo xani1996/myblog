@@ -53,7 +53,7 @@ def post_detail(request, post_slug):
         'all_tags': all_tags,
 
     }
-    return render(request, 'blog/post/detail.html', context)
+    return render(request, 'blog/post/2.html', context)
 
 
 def post_share(request, post_id):
