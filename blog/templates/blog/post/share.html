@@ -8,10 +8,12 @@
                     <div class="col-lg-8 posts-list">
                         <div class="single-post row">
                              <div class="col-lg-9 col-md-9 blog_details text-center ">
-                            <h1>E-mail successfully sent</h1>
+                            <h1>ایمیل شما با موفقیت ارسال شد</h1>
                             <p>
-                                "{{ post.title }}" was successfully sent to {{ form.cleaned_data.to }}.
+                                پست {{ post.title }} با موفقیت به {{ form.cleaned_data.to }} ارسال شد
                             </p>
+                                 <a class="button " href="{{ post.get_absolute_url }}">برگشت به صفحه قبل
+                                 </a>
                         </div>
                         </div>
                     </div>
@@ -19,11 +21,13 @@
             </div>
         </section>
     {% else %}
-        <h1>Share "{{ post.title }}" by e-mail</h1>
-        <form method="post">
+        <h1>اشتراک گذاری "{{ post.title }}" با ایمیل </h1>
+        <form class="comment-form" method="post">
+        <div class="form-group ">
             {{ form.as_p }}
             {% csrf_token %}
-            <input type="submit" value="Send e-mail">
+            <input class="button btn-primary" type="submit" value="ارسال ایمیل ">
+            </div>
         </form>
     {% endif %}
 {% endblock %}
