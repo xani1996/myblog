@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-=rph0g#v@)paumx56c359(&1+soh804+b9f)sg=kg+oaub__vq
 DEBUG = True
 
 ALLOWED_HOSTS = []
-
+SITE_ID = 1
 # Application definition
 
 INSTALLED_APPS = [
@@ -44,7 +44,10 @@ INSTALLED_APPS = [
     'tinymce',
     'django_social_share',
     'hitcount',
-    'taggit'
+    'taggit',
+    # SITE ID
+    'django.contrib.sites',
+    'django.contrib.sitemaps'
 ]
 
 MIDDLEWARE = [
