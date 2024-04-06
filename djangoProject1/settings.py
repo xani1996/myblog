@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # Data base
+    'django.contrib.postgres',
     # local app
     'blog.apps.BlogConfig',
     # 3rd party app

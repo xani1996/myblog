@@ -176,4 +176,1327 @@
     "user": 1,
     "content_type": 7,
     "object_id": "6",
-    "object_repr": 
+    "object_repr": "برنامه نویس وب سایت",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2024-02-13T18:32:04.517Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "اطلاعات چیست",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2024-02-13T18:32:42.662Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "پایگاه داده چیست",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2024-02-13T18:33:08.989Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "سیستم فایل",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2024-02-18T17:07:40.621Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "10",
+    "object_repr": "پست پنجم",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2024-02-26T17:50:04.231Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Comment by Maria Rashidi on برنامه نویس وب سایت",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2024-02-26T18:27:36.408Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Comment by زانیار رشیدی on برنامه نویس وب سایت",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2024-02-26T18:27:36.413Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Comment by زانیار رشیدی on برنامه نویس وب سایت",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2024-02-26T18:38:04.197Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "Comment by ستاره رشیدی on برنامه نویس وب سایت",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2024-03-01T14:41:33.765Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "1",
+    "object_repr": "ج",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2024-03-01T14:42:05.747Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "1",
+    "object_repr": "ج",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2024-03-01T14:42:56.600Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "2",
+    "object_repr": "جنگو سایت",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"tagged item\", \"object\": \"None tagged with \\u062c\\u0646\\u06af\\u0648 \\u0633\\u0627\\u06cc\\u062a\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2024-03-01T14:46:45.213Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "2",
+    "object_repr": "جنگو سایت",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2024-03-01T14:47:01.708Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "3",
+    "object_repr": "جنگو سایت",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2024-03-03T14:24:50.440Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "3",
+    "object_repr": "جنگو سایت",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2024-03-03T14:49:35.301Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "11",
+    "object_repr": "جنگو برتری هایی که دارد",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2024-03-03T14:52:22.285Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "برنامه نویس وب سایت",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2024-03-09T17:21:49.759Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "اطلاعات چیست",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add post",
+    "content_type": 7,
+    "codename": "add_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change post",
+    "content_type": 7,
+    "codename": "change_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete post",
+    "content_type": 7,
+    "codename": "delete_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view post",
+    "content_type": 7,
+    "codename": "view_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add post comment",
+    "content_type": 8,
+    "codename": "add_postcomment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change post comment",
+    "content_type": 8,
+    "codename": "change_postcomment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete post comment",
+    "content_type": 8,
+    "codename": "delete_postcomment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view post comment",
+    "content_type": 8,
+    "codename": "view_postcomment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add Blacklisted IP",
+    "content_type": 9,
+    "codename": "add_blacklistip"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change Blacklisted IP",
+    "content_type": 9,
+    "codename": "change_blacklistip"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete Blacklisted IP",
+    "content_type": 9,
+    "codename": "delete_blacklistip"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view Blacklisted IP",
+    "content_type": 9,
+    "codename": "view_blacklistip"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add Blacklisted User Agent",
+    "content_type": 10,
+    "codename": "add_blacklistuseragent"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change Blacklisted User Agent",
+    "content_type": 10,
+    "codename": "change_blacklistuseragent"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete Blacklisted User Agent",
+    "content_type": 10,
+    "codename": "delete_blacklistuseragent"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view Blacklisted User Agent",
+    "content_type": 10,
+    "codename": "view_blacklistuseragent"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add hit",
+    "content_type": 11,
+    "codename": "add_hit"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change hit",
+    "content_type": 11,
+    "codename": "change_hit"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete hit",
+    "content_type": 11,
+    "codename": "delete_hit"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view hit",
+    "content_type": 11,
+    "codename": "view_hit"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add hit count",
+    "content_type": 12,
+    "codename": "add_hitcount"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change hit count",
+    "content_type": 12,
+    "codename": "change_hitcount"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete hit count",
+    "content_type": 12,
+    "codename": "delete_hitcount"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view hit count",
+    "content_type": 12,
+    "codename": "view_hitcount"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 49,
+  "fields": {
+    "name": "Can add tag",
+    "content_type": 13,
+    "codename": "add_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 50,
+  "fields": {
+    "name": "Can change tag",
+    "content_type": 13,
+    "codename": "change_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 51,
+  "fields": {
+    "name": "Can delete tag",
+    "content_type": 13,
+    "codename": "delete_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 52,
+  "fields": {
+    "name": "Can view tag",
+    "content_type": 13,
+    "codename": "view_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 53,
+  "fields": {
+    "name": "Can add tagged item",
+    "content_type": 14,
+    "codename": "add_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 54,
+  "fields": {
+    "name": "Can change tagged item",
+    "content_type": 14,
+    "codename": "change_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 55,
+  "fields": {
+    "name": "Can delete tagged item",
+    "content_type": 14,
+    "codename": "delete_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 56,
+  "fields": {
+    "name": "Can view tagged item",
+    "content_type": 14,
+    "codename": "view_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 57,
+  "fields": {
+    "name": "Can add site",
+    "content_type": 15,
+    "codename": "add_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 58,
+  "fields": {
+    "name": "Can change site",
+    "content_type": 15,
+    "codename": "change_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 59,
+  "fields": {
+    "name": "Can delete site",
+    "content_type": 15,
+    "codename": "delete_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 60,
+  "fields": {
+    "name": "Can view site",
+    "content_type": 15,
+    "codename": "view_site"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$ug2z13ciEP2eFr8FWbULaR$JUbXOpdiZNyDCaFAoApUOSHljhVTKuvAE+ZY/oNJjZY=",
+    "last_login": "2024-04-06T15:00:10.838Z",
+    "is_superuser": true,
+    "username": "xaniar",
+    "first_name": "",
+    "last_name": "",
+    "email": "rashiixaniar@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2024-02-09T13:51:09.879Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "blog",
+    "model": "post"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "blog",
+    "model": "postcomment"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "hitcount",
+    "model": "blacklistip"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "hitcount",
+    "model": "blacklistuseragent"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "hitcount",
+    "model": "hit"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "hitcount",
+    "model": "hitcount"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 13,
+  "fields": {
+    "app_label": "taggit",
+    "model": "tag"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 14,
+  "fields": {
+    "app_label": "taggit",
+    "model": "taggeditem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 15,
+  "fields": {
+    "app_label": "sites",
+    "model": "site"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "2eqanslc7bv0ixrss9qy1dcw0gzh7o60",
+  "fields": {
+    "session_data": ".eJxVjE0OwiAYBe_C2hCwQKlL9z0D4fuTqmmT0q6Md1eSLnQ7M--9VMr7VtJeeU0TqYuy6vTLIOOD5ybonufbonGZt3UC3RJ92KrHhfh5Pdq_g5JraesobF3wyOQ8gRcUZ70bGI10JtAZbIi9EdN1TiBDBAc9egnDlw9M6v0B_oM4bw:1rt7Wc:n6sAepciXE-ahdR4dDp30O7RGKCbFwGe89A0zeGB8rM",
+    "expire_date": "2024-04-20T15:00:10.846Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "fgk9n7378wnyn6reea3i2xckbvv860l9",
+  "fields": {
+    "session_data": ".eJxVjE0OwiAYBe_C2hCwQKlL9z0D4fuTqmmT0q6Md1eSLnQ7M--9VMr7VtJeeU0TqYuy6vTLIOOD5ybonufbonGZt3UC3RJ92KrHhfh5Pdq_g5JraesobF3wyOQ8gRcUZ70bGI10JtAZbIi9EdN1TiBDBAc9egnDlw9M6v0B_oM4bw:1rmwzh:1pWYZ-6zq0GCoWahwvhHJz1YhGNByJlaPf8oIunY1Jg",
+    "expire_date": "2024-04-03T14:32:41.136Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "l2oeri1igxo6ftqovm35e5z9kh95pfab",
+  "fields": {
+    "session_data": ".eJxVjE0OwiAYBe_C2hCwQKlL9z0D4fuTqmmT0q6Md1eSLnQ7M--9VMr7VtJeeU0TqYuy6vTLIOOD5ybonufbonGZt3UC3RJ92KrHhfh5Pdq_g5JraesobF3wyOQ8gRcUZ70bGI10JtAZbIi9EdN1TiBDBAc9egnDlw9M6v0B_oM4bw:1rg44G:4trBLUeErzLhxubgDDKt-T1Nh92UW9K5ryf36KsclEI",
+    "expire_date": "2024-03-15T14:40:56.876Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "vk4dbkxjxt7kxp3rugqo1pnc9cmhhydy",
+  "fields": {
+    "session_data": ".eJxVjE0OwiAYBe_C2hCwQKlL9z0D4fuTqmmT0q6Md1eSLnQ7M--9VMr7VtJeeU0TqYuy6vTLIOOD5ybonufbonGZt3UC3RJ92KrHhfh5Pdq_g5JraesobF3wyOQ8gRcUZ70bGI10JtAZbIi9EdN1TiBDBAc9egnDlw9M6v0B_oM4bw:1rYRIb:ZgY-tELMsF4XinWWJ6th0Wdb4zMlHEYxawYUWYDbki0",
+    "expire_date": "2024-02-23T13:52:13.183Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "w692o1bw02haswzwesdt22uj4ifkn200",
+  "fields": {
+    "session_data": ".eJxVjE0OwiAYBe_C2hCwQKlL9z0D4fuTqmmT0q6Md1eSLnQ7M--9VMr7VtJeeU0TqYuy6vTLIOOD5ybonufbonGZt3UC3RJ92KrHhfh5Pdq_g5JraesobF3wyOQ8gRcUZ70bGI10JtAZbIi9EdN1TiBDBAc9egnDlw9M6v0B_oM4bw:1rZxYF:qsBAtPbybMr3IElyiJaKRpHHTft45E3374wTH7wqqtI",
+    "expire_date": "2024-02-27T18:30:39.560Z"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 6,
+  "fields": {
+    "title": "برنامه نویس وب سایت",
+    "slug": "برنامه-نویس-وب-سایت",
+    "author": 1,
+    "body": "<p style=\"text-align: right;\">بدر محاسبات، داده به اطالع ات ی گفته میشود که به شکلی مناسب براي انتقال و پردازش ترجمه شود. در کامپیوتر و رسانههاي ارتباطات ی امروز ي داده به شکل باينري تبديل میشود. بنابراين داده يک نمايش باينري از يک موجوديت منطقی ذخیره شده در حافظه کامپیوتر است.</p>",
+    "publish": "2024-02-13T18:30:52Z",
+    "created": "2024-02-13T18:31:38.295Z",
+    "updated": "2024-03-03T14:52:22.254Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 7,
+  "fields": {
+    "title": "اطلاعات چیست",
+    "slug": "اطلاعات-چیست",
+    "author": 1,
+    "body": "<p style=\"text-align: right;\">اطالع ات )information )مفهومی است که براي گیرنده آن قابلدرک بوده و با دانستن آن م یتواند براي حل يک مسئله تصمیمگیري يا ارزيابی کند. وقتی اطالع ات وارد کامپیوتر شود، ذخیره میشود و به داده تبديل م یشود. بعد از پردازش، داده خروجی مجدداً بهعنوان اطالع ات دريافت میشود</p>",
+    "publish": "2024-02-13T18:31:38Z",
+    "created": "2024-02-13T18:32:04.514Z",
+    "updated": "2024-03-09T17:21:49.749Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 8,
+  "fields": {
+    "title": "پایگاه داده چیست",
+    "slug": "پایگاه-داده-چیست",
+    "author": 1,
+    "body": "<p style=\"text-align: right;\">ک بانک اطالعاتی يا پايگاهداده )database )مجموعهاي سازمانيافته و بدون افزونگی از دادههاي مرتبط به هم است که میتواند توسط سیستمهاي کاربردي مختلف به اشتراک گذاشته شود و بهراحتی دسترسی، مديريت و بهنگام شود. وقتی داده بهصورت پايگاهداده سازماندهی میشود، کاربر و برنامهنويس نیازي به دانستن جزئیات ذخیرهسازي داده ندارند. عالوه بر اين داده میتواند بدون تأثیر روي اجزاي ديگر سیستم تغییر کند. براي مثال از اعداد حقیقی به صحیح، از يک ساختار فايل به ديگري يا از دستگاه ذخیرهسازي نوري به مغناطیسی تغییر کند.</p>",
+    "publish": "2024-02-13T18:32:04Z",
+    "created": "2024-02-13T18:32:42.660Z",
+    "updated": "2024-02-13T18:32:42.660Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 9,
+  "fields": {
+    "title": "سیستم فایل",
+    "slug": "سیستم-فایل",
+    "author": 1,
+    "body": "<p style=\"text-align: right;\">در اين روش، دادهها در فايلهاي مجزا قرار گرفته و سیستمها ي جداگانها ي به نام سیستم پردازش فايل براي استفاده از فايلها ي دادها ي طراحی میشوند. در اين سیستمها هر برنامهي کاربردي تنها به فايل دادها ي مربوط به خود میتواند مراجعه کند. اشکاالت چنین طراحی در ذخیره داده به طور خالصه عبارتاند</p>",
+    "publish": "2024-02-13T18:32:42Z",
+    "created": "2024-02-13T18:33:08.987Z",
+    "updated": "2024-02-13T18:33:08.987Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 10,
+  "fields": {
+    "title": "پست پنجم",
+    "slug": "پست-پنجم",
+    "author": 1,
+    "body": "<p>مباحث بنیادی پایگاهداده تقريباً بیشتر برنامههاي کاربرد ي، امروزه به روش پايگاهداده طراحی میشوند. پايگاهداده امکان ذخیرهسازي متمرکز داده با حداقل افزونگی و استفادهي اشتراکی توسط کاربران مختلف را میده</p>",
+    "publish": "2024-02-18T17:06:43Z",
+    "created": "2024-02-18T17:07:40.618Z",
+    "updated": "2024-02-18T17:07:40.618Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 11,
+  "fields": {
+    "title": "جنگو برتری هایی که دارد",
+    "slug": "جنگو-برتری-هایی-که-دارد",
+    "author": 1,
+    "body": "<p class=\"text-justify\" style=\"margin: 0px 0px 20px; padding: 0px; -webkit-font-smoothing: antialiased; text-rendering: optimizelegibility; box-sizing: border-box; overflow-wrap: break-word; color: #2a3554; font-family: iransansxv, tahoma; font-size: 17px; background-color: #ffffff; text-align: right;\">جنگو یکی از فریم ورک&zwnj;های مبتنی بر وب و سطح بالا در پایتون است &nbsp;که مبتنی بر معماری (<span style=\"margin: 0px; padding: 0px; -webkit-font-smoothing: antialiased; text-rendering: optimizelegibility; box-sizing: border-box; font-weight: bolder;\">M</span>odel-<span style=\"margin: 0px; padding: 0px; -webkit-font-smoothing: antialiased; text-rendering: optimizelegibility; box-sizing: border-box; font-weight: bolder;\">V</span>iew-<span style=\"margin: 0px; padding: 0px; -webkit-font-smoothing: antialiased; text-rendering: optimizelegibility; box-sizing: border-box; font-weight: bolder;\">T</span>emplate) یا M<span style=\"margin: 0px; padding: 0px; -webkit-font-smoothing: antialiased; text-rendering: optimizelegibility; box-sizing: border-box; font-weight: bolder;\">VT</span>&nbsp;می&zwnj;باشد. فریم ورک، مجموعه استانداردها و چارچوب هایی است که به برنامه نویسان در توسعه بهتر کدها کمک می&zwnj;کند. جنگو رایگان و منبع باز (<span style=\"margin: 0px; padding: 0px; -webkit-font-smoothing: antialiased; text-rendering: optimizelegibility; box-sizing: border-box; font-weight: bolder;\">O</span>pen&nbsp;<span style=\"margin: 0px; padding: 0px; -webkit-font-smoothing: antialiased; text-rendering: optimizelegibility; box-sizing: border-box; font-weight: bolder;\">S</span>ource) است، اسناد زیادی دارد و برای برنامه نویسان با تجربه، نقطه امنی در توسعه اپلیکیشن&zwnj;های مبتنی بر وب محسوب می&zwnj;شود.</p>\r\n<p class=\"text-justify\" style=\"margin: 0px 0px 20px; padding: 0px; -webkit-font-smoothing: antialiased; text-rendering: optimizelegibility; box-sizing: border-box; overflow-wrap: break-word; color: #2a3554; font-family: iransansxv, tahoma; font-size: 17px; background-color: #ffffff; text-align: right;\">این فریم ورک در سال 2003 و توسط یک تیم نرم افزاری فعال در حوزه پشتیبانی سایت&zwnj;های خبری توسعه یافت. این گروه با&nbsp; دسته بندی کدهای نوشته شده و استفاده از دیزاین پترن&zwnj;های مختلف، زمینه توسعه فریم ورک جنگو و معرفی آن را در سال 2005 فراهم کردند. جنگو تلاش می&zwnj;کند</p>",
+    "publish": "2024-03-03T14:46:55Z",
+    "created": "2024-03-03T14:49:35.280Z",
+    "updated": "2024-03-03T14:49:35.280Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.postcomment",
+  "pk": 1,
+  "fields": {
+    "post": 6,
+    "name": "Maria Rashidi",
+    "email": "maria@gmail.com",
+    "body": "سلام من خوشم اومد",
+    "created": "2024-02-26T17:50:04.229Z",
+    "updated": "2024-02-26T17:50:04.229Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.postcomment",
+  "pk": 4,
+  "fields": {
+    "post": 6,
+    "name": "زانیار رشیدی",
+    "email": "rashidixaniar@gmail.com",
+    "body": "تست میکنیم که اگر کامنت ما کار میکند یا خدا",
+    "created": "2024-02-26T18:27:00.210Z",
+    "updated": "2024-02-26T18:27:00.210Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.postcomment",
+  "pk": 5,
+  "fields": {
+    "post": 6,
+    "name": "ستاره رشیدی",
+    "email": "aryanrashidi86@gmail.com",
+    "body": "بزاریم اینم تست کنم",
+    "created": "2024-02-26T18:38:04.195Z",
+    "updated": "2024-02-26T18:38:04.195Z",
+    "active": false
+  }
+},
+{
+  "model": "blog.postcomment",
+  "pk": 6,
+  "fields": {
+    "post": 6,
+    "name": "رانیار رشیدی",
+    "email": "rashidixaniar@gmail.com",
+    "body": "متن کامنت 2",
+    "created": "2024-02-28T19:06:15.543Z",
+    "updated": "2024-02-28T19:06:15.543Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.postcomment",
+  "pk": 7,
+  "fields": {
+    "post": 6,
+    "name": "رانیار رشیدی",
+    "email": "rashidixaniar@gmail.com",
+    "body": "asdasdsad",
+    "created": "2024-02-28T19:24:47.848Z",
+    "updated": "2024-02-28T19:24:47.848Z",
+    "active": true
+  }
+},
+{
+  "model": "hitcount.hitcount",
+  "pk": 1,
+  "fields": {
+    "hits": 0,
+    "modified": "2024-03-01T11:34:34.213Z",
+    "content_type": 7,
+    "object_pk": 7
+  }
+},
+{
+  "model": "hitcount.hitcount",
+  "pk": 2,
+  "fields": {
+    "hits": 0,
+    "modified": "2024-03-01T11:34:34.223Z",
+    "content_type": 7,
+    "object_pk": 6
+  }
+},
+{
+  "model": "hitcount.hitcount",
+  "pk": 3,
+  "fields": {
+    "hits": 0,
+    "modified": "2024-03-01T11:38:12.715Z",
+    "content_type": 7,
+    "object_pk": 10
+  }
+},
+{
+  "model": "hitcount.hitcount",
+  "pk": 4,
+  "fields": {
+    "hits": 0,
+    "modified": "2024-03-01T11:38:12.727Z",
+    "content_type": 7,
+    "object_pk": 9
+  }
+},
+{
+  "model": "hitcount.hitcount",
+  "pk": 5,
+  "fields": {
+    "hits": 0,
+    "modified": "2024-03-01T11:38:12.738Z",
+    "content_type": 7,
+    "object_pk": 8
+  }
+},
+{
+  "model": "hitcount.hitcount",
+  "pk": 6,
+  "fields": {
+    "hits": 0,
+    "modified": "2024-03-03T14:51:06.583Z",
+    "content_type": 7,
+    "object_pk": 11
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 4,
+  "fields": {
+    "name": "me",
+    "slug": "me"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 5,
+  "fields": {
+    "name": "you",
+    "slug": "you"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 6,
+  "fields": {
+    "name": "im",
+    "slug": "im"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 7,
+  "fields": {
+    "name": "جنگو",
+    "slug": "جنگو"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 8,
+  "fields": {
+    "name": "سایت",
+    "slug": "سایت"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 9,
+  "fields": {
+    "name": "تکنولوژی",
+    "slug": "تکنولوژی"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 10,
+  "fields": {
+    "name": "داده",
+    "slug": "داده"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 11,
+  "fields": {
+    "name": "وب",
+    "slug": "وب"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 12,
+  "fields": {
+    "name": "پایگاه",
+    "slug": "پایگاه"
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 5,
+  "fields": {
+    "tag": 8,
+    "content_type": 7,
+    "object_id": 11
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 6,
+  "fields": {
+    "tag": 9,
+    "content_type": 7,
+    "object_id": 11
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 7,
+  "fields": {
+    "tag": 7,
+    "content_type": 7,
+    "object_id": 11
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 8,
+  "fields": {
+    "tag": 8,
+    "content_type": 7,
+    "object_id": 6
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 9,
+  "fields": {
+    "tag": 10,
+    "content_type": 7,
+    "object_id": 6
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 10,
+  "fields": {
+    "tag": 11,
+    "content_type": 7,
+    "object_id": 6
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 11,
+  "fields": {
+    "tag": 12,
+    "content_type": 7,
+    "object_id": 6
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 12,
+  "fields": {
+    "tag": 8,
+    "content_type": 7,
+    "object_id": 7
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 13,
+  "fields": {
+    "tag": 10,
+    "content_type": 7,
+    "object_id": 7
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 14,
+  "fields": {
+    "tag": 11,
+    "content_type": 7,
+    "object_id": 7
+  }
+},
+{
+  "model": "sites.site",
+  "pk": 1,
+  "fields": {
+    "domain": "example.com",
+    "name": "example.com"
+  }
+}
+]

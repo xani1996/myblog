@@ -23,3 +23,6 @@ class CommentForm(forms.ModelForm):
                 attrs={'class': 'form-control text-right', 'placeholder': 'متن نظر خود را وارد کنید'}),
 
         }
+
+class SearchForm(forms.Form):
+    query = forms.CharField()
