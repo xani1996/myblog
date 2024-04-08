@@ -10,6 +10,16 @@ from taggit.managers import TaggableManager
 
 
 # Create your models here.
+
+class HomeBanner(models.Model):
+    hello = models.CharField(max_length=100)
+    who_am_i = models.CharField(max_length=200)
+    education = models.CharField(max_length=200)
+    cv_button = models.CharField(max_length=50)
+    cv_files = models.FileField(upload_to='cv/')
+    contact_me_button = models.CharField(max_length=50)
+
+
 class PublishManager(models.Manager):
     def get_queryset(self):
         return super().get_queryset().filter(status=Post.Status.PUBLISHED)
