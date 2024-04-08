@@ -15,9 +15,25 @@ class HomeBanner(models.Model):
     hello = models.CharField(max_length=100)
     who_am_i = models.CharField(max_length=200)
     education = models.CharField(max_length=200)
+    picture = models.ImageField(upload_to='HomeBanner/', default='home-right.png')
     cv_button = models.CharField(max_length=50)
-    cv_files = models.FileField(upload_to='cv/')
+    cv_file = models.FileField(upload_to='cv/')
     contact_me_button = models.CharField(max_length=50)
+
+    class Meta:
+        verbose_name = 'greeting'
+
+    def __str__(self):
+        return self.who_am_i
+
+
+class AboutMe(models.Model):
+    title = models.CharField(max_length=200)
+    body = HTMLField()
+    picture = models.ImageField(upload_to='AboutMe/')
+
+    def __str__(self):
+        return self.title
 
 
 class PublishManager(models.Manager):
