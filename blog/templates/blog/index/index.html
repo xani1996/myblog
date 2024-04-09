@@ -35,24 +35,17 @@
             <div class="row justify-content-start align-items-center">
                 <div class="col-lg-5">
                     <div class="about_img">
-                        <img class="" src="{% static 'img/about-us.png' %}" alt="">
+                        <img class="" src="{{ about_me.picture.url }}" alt="">
                     </div>
                 </div>
 
                 <div class="offset-lg-1 col-lg-5">
                     <div class="main_title text-left">
-                        <h2>یکم<br>
-                            بیشتر در مورد <br>
-                            خودم بگم</h2>
+                        <h2>{{ about_me.title }}</h2>
                         <p>
-                            من در دانشگاه بوعلی سینا مترجمی زبان انگلیسی میخوندم که ناتمام در ترم اخر رهاش کردم و تصمیم
-                            گرفتم به دنبال علاقم یعنی برنامه نوسی برم
+                          {{ about_me.body|safe }}
                         </p>
-                        <p>
-                            من در دانشگاه ازاد مهندسی نرم افزار خوندم و دارای مهارت در پایتون و HTML و CSS و جاوا
-                            اسکریپت هستم. در اینجا سعی میکنم بهترین مطالب رو براتون بزارم
-                        </p>
-                        <a class="primary_btn" href="#"><span>دانلود رزومه من </span></a>
+                        <a class="primary_btn" href="{{ main.cv_file.url }}"><span>دانلود رزومه من </span></a>
                     </div>
                 </div>
             </div>

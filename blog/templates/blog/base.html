@@ -42,28 +42,7 @@
                 <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
                     <ul class="nav navbar-nav menu_nav justify-content-end">
                         <li class="nav-item active"><a class="nav-link" href="{% url 'blog:index' %}">صفحه اصلی</a></li>
-                        <li class="nav-item"><a class="nav-link" href="about.html">درباره من </a></li>
-                        <li class="nav-item"><a class="nav-link" href="services.html">خدمات</a></li>
-                        <li class="nav-item"><a class="nav-link" href="portfolio.html">نمونه کار</a></li>
-                        <li class="nav-item submenu dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button"
-                               aria-haspopup="true"
-                               aria-expanded="false">صفحات</a>
-                            <ul class="dropdown-menu">
-                                <li class="nav-item"><a class="nav-link" href="elements.html">عناصر</a></li>
-                                <li class="nav-item"><a class="nav-link" href="portfolio-details.html">عناصر دیگر</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="nav-item submenu dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button"
-                               aria-haspopup="true"
-                               aria-expanded="false">بلاگ</a>
-                            <ul class="dropdown-menu">
-                                <li class="nav-item"><a class="nav-link" href="{% url 'blog:post_list' %}">بلاگ</a></li>
-                                <li class="nav-item"><a class="nav-link" href="">بلاگ</a></li>
-                            </ul>
-                        </li>
+                        <li class="nav-item"><a class="nav-link" href="{% url 'blog:post_list' %}">بلاگ</a></li>
                         <li class="nav-item"><a class="nav-link" href="contact.html">ارتباط</a></li>
                     </ul>
                 </div>
@@ -90,10 +69,11 @@
                         <h4>دنبال کردن من</h4>
                     </div>
                     <div class="footer_social">
-                        <a href="#"><i class="fa fa-whatsapp"></i></a>
-                        <a href="#"><i class="fa fa-instagram"></i></a>
-                        <a href="#"><i class="fab telegram-"></i></a>
-                        <a href="#"><i class="fa fa-envelope"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fas fa-envelope"></i></a>
+
                     </div>
                 </div>
             </div>

@@ -72,7 +72,7 @@
                 <div class="col-lg-8">
                     <div class="blog_left_sidebar">
                         {% if tag %}
-                            <h2>پست هایی که تگ "{{ tag.name }}" دارند </h2>
+                            <h2 class="text-center">پست هایی که تگ "{{ tag.name }}" دارند </h2>
                         {% endif %}
                         <article class="row blog_item">
                             {% for post in posts %}
@@ -98,7 +98,7 @@
                                                     class="lnr lnr-calendar-full"></i></a></li>
                                             <li><a href="#">{% get_hit_count for post %}<i class="lnr lnr-eye"></i></a>
                                             </li>
-                                            <li><a href="#">06 Comments<i class="lnr lnr-bubble"></i></a></li>
+                                            <li><a href="#">{{ post.total_comments }} :تعداد نظرات <i class="lnr lnr-bubble"></i></a></li>
                                         </ul>
                                     </div>
                                 </div>

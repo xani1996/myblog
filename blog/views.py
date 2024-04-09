@@ -1,5 +1,5 @@
 from django.shortcuts import render, get_object_or_404
-from .models import Post, PostComment,HomeBanner
+from .models import Post, PostComment, HomeBanner, AboutMe
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from .forms import EmailPostForm, CommentForm, SearchForm
 from django.core.mail import send_mail
@@ -12,18 +12,27 @@ from django.contrib.postgres.search import SearchVector, SearchQuery, SearchRank
 # Create your views here.
 def index(request):
     main = get_object_or_404(HomeBanner)
+    about_me = get_object_or_404(AboutMe)
     context = {
-        'main': main
+        'main': main,
+        'about_me': about_me
     }
     return render(request, 'blog/index/index.html', context)
 
 
+def about_me_page(request):
+    return render(request, 'blog/index/about.html')
+
+
 def post_list(request, tag_slug=None):
     post_list = Post.published.all()
+
     tag = None
     if tag_slug:
         tag = get_object_or_404(Tag, slug=tag_slug, )
         post_list = post_list.filter(tags__in=[tag])
+    for post in post_list:
+        post.total_comments = post.comments.count()
     # Pagination with 3 post pre page
     paginator = Paginator(post_list, 3)
     page_number = request.GET.get('page')
