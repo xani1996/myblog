@@ -59,6 +59,9 @@ class Post(models.Model, HitCountMixin):
     hit_count_generic = GenericRelation(HitCount, object_id_field='object_pk',
                                         related_query_name='hit_count_generic_relation')
     tags = TaggableManager()
+    quotes = HTMLField(default='')
+    image_one = models.ImageField(upload_to='post_image/', default='')
+    image_two = models.ImageField(upload_to='post_image/', default='')
 
     class Meta:
         ordering = ['-publish']
