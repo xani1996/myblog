@@ -15,9 +15,9 @@ import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
-
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
+get_env = os.environ.get
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-=rph0g#v@)paumx56c359(&1+soh804+b9f)sg=kg+oaub__vq'
@@ -88,11 +88,11 @@ WSGI_APPLICATION = 'djangoProject1.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
+        'ENGINE': 'django.db.backends.mysql',
         'NAME': 'blog',
         'USER': 'blog',
-        'PASSWORD': 'admin',
-
+        'PASSWORD': 'admin@xaniar',
+        'PORT': '3306',
     }
 }
 

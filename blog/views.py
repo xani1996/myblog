@@ -60,12 +60,26 @@ def post_detail(request, post_slug):
     similar_posts = Post.published.filter(tags__in=post_tags_ids).exclude(id=post.id)
     similar_posts = similar_posts.annotate(same_tags=Count('tags')).order_by('-same_tags', 'publish')[:4]
     comment_count = comments.count()
+    # Check if 'INSERT_IMAGE_HERE' exists in the content
+    if 'INSERT_IMAGE_HERE' in post.body:
+        # Split the body into two parts based on the 'INSERT_IMAGE_HERE' marker
+        body_parts = post.body.split('INSERT_IMAGE_HERE')
+        content_before_image = body_parts[0]  # Content before the image
+        content_after_image = body_parts[1]  # Content after the image
+        has_image = True
+    else:
+        content_before_image = post.body
+        content_after_image = None
+        has_image = False
     context = {
         'post': post,
         'comments': comments,
         'form': form,
         'similar_posts': similar_posts,
         'comment_count': comment_count,
+        'content_before_image': content_before_image,
+        'content_after_image': content_after_image,
+        'has_image': has_image,
     }
     return render(request, 'blog/post/2.html', context)
 
