@@ -11,8 +11,10 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 """
 
 from pathlib import Path
+from dotenv import load_dotenv
 import os
 
+load_dotenv()
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 # Quick-start development settings - unsuitable for production
@@ -20,7 +22,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 get_env = os.environ.get
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-=rph0g#v@)paumx56c359(&1+soh804+b9f)sg=kg+oaub__vq'
+SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -89,9 +91,9 @@ WSGI_APPLICATION = 'djangoProject1.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'blog',
-        'USER': 'blog',
-        'PASSWORD': 'admin@xaniar',
+        'NAME': os.environ.get('DB_NAME'),
+        'USER': os.environ.get('DB_USER'),
+        'PASSWORD': os.environ.get('DB_PASSWORD'),
         'PORT': '3306',
     }
 }
@@ -119,7 +121,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'Asia/Tehran'
+TIME_ZONE = 'UTC'
 
 USE_I18N = True
 
@@ -162,6 +164,6 @@ TINYMCE_DEFAULT_CONFIG = {
 }
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_HOST_USER = 'codepython3.12@gmail.com'
-EMAIL_HOST_PASSWORD = 'bban febv mvny mrvl'
+EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD')
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
