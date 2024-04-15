@@ -1,0 +1,13 @@
+asgiref==3.7.2
+Django==5.0.2
+django-etc==1.4.0
+django-hitcount==1.3.5
+django-social-share==2.3.0
+django-taggit==5.0.1
+django-tinymce==3.7.1
+mysqlclient==2.2.4
+pillow==10.3.0
+psycopg2-binary==2.9.9
+python-dotenv==1.0.1
+sqlparse==0.4.4
+tzdata==2023.4
